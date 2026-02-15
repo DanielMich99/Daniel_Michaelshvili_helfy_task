@@ -24,3 +24,7 @@
 - **PUT** `/api/tasks/:id` - Update an existing task
 - **DELETE** `/api/tasks/:id` - Delete a task
 - **PATCH** `/api/tasks/:id/toggle` - Toggle task completion status
+
+## Bugs that needed to be fixed
+
+- handle what happens when a task is on edit mode in a moving carousle (currently when the cusror stop hovering on the carousle its continue to move without exiting the edit mode).
